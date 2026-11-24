@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/ytsaurus/nbd-task.schema.json",
+  "title": "MVP fragment of a YTsaurus vanilla task with persistent NBD mounts",
+  "description": "Schema of the JSON-compatible YSON fragment. Cross-field mount rules are specified in docs/api/operation-spec.md.",
+  "type": "object",
+  "required": ["disk_request", "nbd_volumes", "nbd_mounts"],
+  "properties": {
+    "disk_request": {
+      "type": "object",
+      "required": ["disk_space"],
+      "properties": {
+        "disk_space": {"type": "integer", "minimum": 1}
+      },
+      "not": {"required": ["nbd_disk"]}
+    },
+    "nbd_volumes": {
+      "type": "object",
+      "minProperties": 1,
+      "propertyNames": {"pattern": "^[A-Za-z0-9_-]+$"},
+      "additionalProperties": {
+        "type": "object",
+        "required": ["disk_space", "nbd_disk"],
+        "properties": {
+          "disk_space": {"type": "integer", "minimum": 1, "maximum": 549755813888},
+          "nbd_disk": {
+            "type": "object",
+            "required": ["dynamic_table"],
+            "properties": {
+              "dynamic_table": {
+                "type": "object",
+                "required": ["table_path", "block_size"],
+                "properties": {
+                  "table_path": {"type": "string", "pattern": "^//.+"},
+                  "block_size": {"type": "integer", "minimum": 1},
+                  "max_cached_block_count": {"type": "integer", "minimum": 1, "default": 1024},
+                  "read_batch_size": {"type": "integer", "minimum": 1, "default": 16},
+                  "write_batch_size": {"type": "integer", "minimum": 1, "default": 16}
+                },
+                "additionalProperties": false
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "nbd_mounts": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["volume_id", "mount_path"],
+        "properties": {
+          "volume_id": {"type": "string", "minLength": 1},
+          "mount_path": {"type": "string", "pattern": "^/slot/sandbox/[^/].*"}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": true
+}

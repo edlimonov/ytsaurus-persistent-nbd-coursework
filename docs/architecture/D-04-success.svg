@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1270" height="628" viewBox="0 0 1270 628" role="img" aria-label="D 04 success">
+<defs><marker id="arrow" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto"><path d="M 0 0 L 9 4 L 0 8 z" fill="#71c4d8"/></marker></defs>
+<rect width="1270" height="628" fill="#111c2c"/>
+<text x="32" y="39" fill="#ffffff" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" text-anchor="start" font-weight="bold">D 04 success</text>
+<text x="1242" y="38" fill="#a9bdd1" font-family="Arial, DejaVu Sans, sans-serif" font-size="12" text-anchor="end" font-weight="normal">24.11.2026 · NFR-001/002/003/004/007/008</text>
+<rect x="7.0" y="72" width="146" height="48" rx="10" fill="#203d5b" stroke="#7ea8c1" stroke-width="1.4"/>
+<text x="80.0" y="101.0" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">User</text>
+<line x1="80.0" y1="122" x2="80.0" y2="593" stroke="#536f86" stroke-dasharray="5 5"/>
+<rect x="192.0" y="72" width="146" height="48" rx="10" fill="#203d5b" stroke="#7ea8c1" stroke-width="1.4"/>
+<text x="265.0" y="101.0" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">Controller</text>
+<line x1="265.0" y1="122" x2="265.0" y2="593" stroke="#536f86" stroke-dasharray="5 5"/>
+<rect x="377.0" y="72" width="146" height="48" rx="10" fill="#203d5b" stroke="#7ea8c1" stroke-width="1.4"/>
+<text x="450.0" y="101.0" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">Exec node</text>
+<line x1="450.0" y1="122" x2="450.0" y2="593" stroke="#536f86" stroke-dasharray="5 5"/>
+<rect x="562.0" y="72" width="146" height="48" rx="10" fill="#164d56" stroke="#7ea8c1" stroke-width="1.4"/>
+<text x="635.0" y="101.0" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">NBD device</text>
+<line x1="635.0" y1="122" x2="635.0" y2="593" stroke="#536f86" stroke-dasharray="5 5"/>
+<rect x="747.0" y="72" width="146" height="48" rx="10" fill="#164d56" stroke="#7ea8c1" stroke-width="1.4"/>
+<text x="820.0" y="101.0" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">Dynamic table</text>
+<line x1="820.0" y1="122" x2="820.0" y2="593" stroke="#536f86" stroke-dasharray="5 5"/>
+<rect x="932.0" y="72" width="146" height="48" rx="10" fill="#203d5b" stroke="#7ea8c1" stroke-width="1.4"/>
+<text x="1005.0" y="101.0" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">Job proxy</text>
+<line x1="1005.0" y1="122" x2="1005.0" y2="593" stroke="#536f86" stroke-dasharray="5 5"/>
+<rect x="1117.0" y="72" width="146" height="48" rx="10" fill="#203d5b" stroke="#7ea8c1" stroke-width="1.4"/>
+<text x="1190.0" y="101.0" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">Job</text>
+<line x1="1190.0" y1="122" x2="1190.0" y2="593" stroke="#536f86" stroke-dasharray="5 5"/>
+<line x1="80.0" y1="155" x2="265.0" y2="155" stroke="#71c4d8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="172.5" y="146" fill="#dfedf9" font-family="Arial, DejaVu Sans, sans-serif" font-size="11" text-anchor="middle" font-weight="normal">start operation</text>
+<line x1="265.0" y1="198" x2="820.0" y2="198" stroke="#71c4d8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="542.5" y="189" fill="#dfedf9" font-family="Arial, DejaVu Sans, sans-serif" font-size="11" text-anchor="middle" font-weight="normal">ACL + schema</text>
+<line x1="265.0" y1="241" x2="450.0" y2="241" stroke="#71c4d8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="357.5" y="232" fill="#dfedf9" font-family="Arial, DejaVu Sans, sans-serif" font-size="11" text-anchor="middle" font-weight="normal">job spec</text>
+<line x1="450.0" y1="284" x2="635.0" y2="284" stroke="#71c4d8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="542.5" y="275" fill="#dfedf9" font-family="Arial, DejaVu Sans, sans-serif" font-size="11" text-anchor="middle" font-weight="normal">device ID</text>
+<line x1="635.0" y1="327" x2="820.0" y2="327" stroke="#71c4d8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="727.5" y="318" fill="#dfedf9" font-family="Arial, DejaVu Sans, sans-serif" font-size="11" text-anchor="middle" font-weight="normal">size / block_size</text>
+<line x1="450.0" y1="370" x2="1005.0" y2="370" stroke="#71c4d8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="727.5" y="361" fill="#dfedf9" font-family="Arial, DejaVu Sans, sans-serif" font-size="11" text-anchor="middle" font-weight="normal">Porto volume</text>
+<line x1="1005.0" y1="413" x2="1190.0" y2="413" stroke="#71c4d8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="1097.5" y="404" fill="#dfedf9" font-family="Arial, DejaVu Sans, sans-serif" font-size="11" text-anchor="middle" font-weight="normal">bind mount</text>
+<line x1="1190.0" y1="456" x2="635.0" y2="456" stroke="#71c4d8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="912.5" y="447" fill="#dfedf9" font-family="Arial, DejaVu Sans, sans-serif" font-size="11" text-anchor="middle" font-weight="normal">write + sync</text>
+<line x1="635.0" y1="499" x2="820.0" y2="499" stroke="#71c4d8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="727.5" y="490" fill="#dfedf9" font-family="Arial, DejaVu Sans, sans-serif" font-size="11" text-anchor="middle" font-weight="normal">flush blocks</text>
+<line x1="80.0" y1="542" x2="265.0" y2="542" stroke="#71c4d8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="172.5" y="533" fill="#dfedf9" font-family="Arial, DejaVu Sans, sans-serif" font-size="11" text-anchor="middle" font-weight="normal">restart, same ID</text>
+<line x1="1190.0" y1="585" x2="635.0" y2="585" stroke="#71c4d8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="912.5" y="576" fill="#dfedf9" font-family="Arial, DejaVu Sans, sans-serif" font-size="11" text-anchor="middle" font-weight="normal">read old file</text>
+</svg>

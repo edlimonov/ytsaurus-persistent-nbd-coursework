@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1190" height="380" viewBox="0 0 1190 380" role="img" aria-label="D 01 context">
+<defs><marker id="arrow" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto"><path d="M 0 0 L 9 4 L 0 8 z" fill="#71c4d8"/></marker></defs>
+<rect width="1190" height="380" fill="#111c2c"/>
+<text x="32" y="39" fill="#ffffff" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" text-anchor="start" font-weight="bold">D 01 context</text>
+<text x="1162" y="38" fill="#a9bdd1" font-family="Arial, DejaVu Sans, sans-serif" font-size="12" text-anchor="end" font-weight="normal">24.11.2026 · NFR-001/002/003/004/007/008</text>
+<rect x="30" y="145" width="170" height="76" rx="10" fill="#5c4927" stroke="#7ea8c1" stroke-width="1.4"/>
+<text x="115.0" y="178.5" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">Разработчик</text>
+<text x="115.0" y="197.5" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">джобы</text>
+<rect x="260" y="145" width="185" height="76" rx="10" fill="#203d5b" stroke="#7ea8c1" stroke-width="1.4"/>
+<text x="352.5" y="178.5" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">Controller agent</text>
+<text x="352.5" y="197.5" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">spec, ACL, schema</text>
+<rect x="510" y="145" width="150" height="76" rx="10" fill="#203d5b" stroke="#7ea8c1" stroke-width="1.4"/>
+<text x="585.0" y="178.5" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">Exec node</text>
+<text x="585.0" y="197.5" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">volume manager</text>
+<rect x="730" y="75" width="175" height="76" rx="10" fill="#164d56" stroke="#7ea8c1" stroke-width="1.4"/>
+<text x="817.5" y="108.5" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">NBD server</text>
+<text x="817.5" y="127.5" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">block device</text>
+<rect x="970" y="75" width="185" height="76" rx="10" fill="#164d56" stroke="#7ea8c1" stroke-width="1.4"/>
+<text x="1062.5" y="108.5" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">Динамическая</text>
+<text x="1062.5" y="127.5" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">таблица</text>
+<rect x="730" y="225" width="175" height="76" rx="10" fill="#203d5b" stroke="#7ea8c1" stroke-width="1.4"/>
+<text x="817.5" y="258.5" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">Job proxy</text>
+<text x="817.5" y="277.5" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">bind mount</text>
+<rect x="970" y="225" width="185" height="76" rx="10" fill="#5c4927" stroke="#7ea8c1" stroke-width="1.4"/>
+<text x="1062.5" y="258.5" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">Контейнер</text>
+<text x="1062.5" y="277.5" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">джобы</text>
+<line x1="200" y1="183" x2="260" y2="183" stroke="#71c4d8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="230.0" y="174.0" fill="#b6d1e2" font-family="Arial, DejaVu Sans, sans-serif" font-size="11" text-anchor="middle" font-weight="normal">YT API</text>
+<line x1="445" y1="183" x2="510" y2="183" stroke="#71c4d8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="477.5" y="174.0" fill="#b6d1e2" font-family="Arial, DejaVu Sans, sans-serif" font-size="11" text-anchor="middle" font-weight="normal">job spec</text>
+<line x1="660" y1="160" x2="730" y2="113" stroke="#71c4d8" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="905" y1="113" x2="970" y2="113" stroke="#71c4d8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="937.5" y="104.0" fill="#b6d1e2" font-family="Arial, DejaVu Sans, sans-serif" font-size="11" text-anchor="middle" font-weight="normal">blocks</text>
+<line x1="660" y1="200" x2="730" y2="263" stroke="#71c4d8" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="905" y1="263" x2="970" y2="263" stroke="#71c4d8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="580" y="343" fill="#a9bdd1" font-family="Arial, DejaVu Sans, sans-serif" font-size="13" text-anchor="middle" font-weight="normal">YTsaurus: controller agent, exec node, NBD, job proxy; Linux/Porto/NBD — внешняя среда</text>
+</svg>

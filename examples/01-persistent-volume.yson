@@ -1,0 +1,28 @@
+{
+    max_failed_job_count = 1;
+    enable_root_volume_disk_quota = %false;
+    tasks = {
+        nbd_course_demo = {
+            job_count = 1;
+            command = "set -eu; findmnt -T /slot/sandbox/work; if test -f /slot/sandbox/work/marker.txt; then cat /slot/sandbox/work/marker.txt; fi; date -Iseconds >> /slot/sandbox/work/marker.txt; sync";
+            disk_request = {disk_space = 1073741824;};
+            nbd_volumes = {
+                work = {
+                    disk_space = 1073741824;
+                    nbd_disk = {
+                        dynamic_table = {
+                            table_path = "//tmp/nbd_course_demo";
+                            block_size = 4096;
+                            max_cached_block_count = 1024;
+                            read_batch_size = 16;
+                            write_batch_size = 16;
+                        };
+                    };
+                };
+            };
+            nbd_mounts = [
+                {volume_id = "work"; mount_path = "/slot/sandbox/work";};
+            ];
+        };
+    };
+}

@@ -1,0 +1,24 @@
+---
+title: D-04 Последовательность успешного запуска и повтора, 24.11.2026
+---
+sequenceDiagram
+  actor User as Разработчик
+  participant CA as Controller agent
+  participant EX as Exec node
+  participant NBD as NBD block device
+  participant DT as Dynamic table
+  participant JP as Job proxy
+  participant Job as Job container
+  User->>CA: Запустить vanilla со spec
+  CA->>DT: Проверить схему и права
+  CA->>EX: Job spec + volume/mount
+  EX->>NBD: Создать экспорт device ID
+  NBD->>DT: Прочитать размер и block_size
+  EX->>JP: Porto volume + mount_path
+  JP->>Job: bind в /slot/sandbox/work
+  Job->>NBD: Запись файла, sync
+  NBD->>DT: Блоки + flush
+  User->>CA: Повторить запуск с тем же ID
+  CA->>EX: Новый job spec
+  EX->>NBD: Подключить тот же device ID
+  Job->>NBD: Прочитать прежний файл

@@ -1,0 +1,13 @@
+---
+title: D-02 Компоненты и границы доверия, 24.11.2026
+---
+flowchart LR
+  S[Операционная YSON-спека] --> V[Controller agent: spec / ACL / schema]
+  V --> P[Proto job spec]
+  P --> W[Exec node: workspace builder]
+  W --> M[Volume manager]
+  M --> B[Dynamic table block device]
+  B <--> T[(Dynamic table)]
+  M --> PV[Porto NBD volume]
+  PV --> C[Job proxy: bind]
+  C --> J[User job /slot/sandbox/work]

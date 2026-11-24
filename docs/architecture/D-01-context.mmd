@@ -1,0 +1,14 @@
+---
+title: D-01 Контекст персистентных NBD-томов, 24.11.2026
+---
+flowchart LR
+  U[Разработчик джобы] -->|YSON spec / YT API| CA[Controller agent]
+  subgraph YT[YTsaurus]
+    CA -->|job spec| EX[Exec node]
+    EX --> JP[Job proxy]
+    EX --> NBD[NBD server / block device]
+    NBD <--> |blocks, metadata| DT[(Динамическая таблица)]
+  end
+  JP -->|bind mount| J[Контейнер джобы]
+  EX -->|Porto/NBD| OS[Linux host]
+  U -.->|files| J

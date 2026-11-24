@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="925" height="395" viewBox="0 0 925 395" role="img" aria-label="D 02 components">
+<defs><marker id="arrow" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto"><path d="M 0 0 L 9 4 L 0 8 z" fill="#71c4d8"/></marker></defs>
+<rect width="925" height="395" fill="#111c2c"/>
+<text x="32" y="39" fill="#ffffff" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" text-anchor="start" font-weight="bold">D 02 components</text>
+<text x="897" y="38" fill="#a9bdd1" font-family="Arial, DejaVu Sans, sans-serif" font-size="12" text-anchor="end" font-weight="normal">24.11.2026 · NFR-001/002/003/004/007/008</text>
+<rect x="35" y="91" width="130" height="70" rx="10" fill="#203d5b" stroke="#7ea8c1" stroke-width="1.4"/>
+<text x="100.0" y="131.0" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">YSON-спека</text>
+<rect x="205" y="91" width="145" height="70" rx="10" fill="#203d5b" stroke="#7ea8c1" stroke-width="1.4"/>
+<text x="277.5" y="121.5" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">Валидация</text>
+<text x="277.5" y="140.5" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">ACL / schema</text>
+<line x1="165" y1="126" x2="205" y2="126" stroke="#71c4d8" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="390" y="91" width="120" height="70" rx="10" fill="#203d5b" stroke="#7ea8c1" stroke-width="1.4"/>
+<text x="450.0" y="131.0" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">Job proto</text>
+<line x1="350" y1="126" x2="390" y2="126" stroke="#71c4d8" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="550" y="91" width="145" height="70" rx="10" fill="#203d5b" stroke="#7ea8c1" stroke-width="1.4"/>
+<text x="622.5" y="121.5" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">Workspace</text>
+<text x="622.5" y="140.5" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">builder</text>
+<line x1="510" y1="126" x2="550" y2="126" stroke="#71c4d8" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="735" y="91" width="145" height="70" rx="10" fill="#164d56" stroke="#7ea8c1" stroke-width="1.4"/>
+<text x="807.5" y="121.5" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">Volume</text>
+<text x="807.5" y="140.5" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">manager</text>
+<line x1="695" y1="126" x2="735" y2="126" stroke="#71c4d8" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="35" y="240" width="130" height="70" rx="10" fill="#164d56" stroke="#7ea8c1" stroke-width="1.4"/>
+<text x="100.0" y="270.5" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">NBD block</text>
+<text x="100.0" y="289.5" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">device</text>
+<rect x="205" y="240" width="145" height="70" rx="10" fill="#164d56" stroke="#7ea8c1" stroke-width="1.4"/>
+<text x="277.5" y="270.5" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">Dynamic</text>
+<text x="277.5" y="289.5" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">table</text>
+<line x1="165" y1="275" x2="205" y2="275" stroke="#71c4d8" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="390" y="240" width="120" height="70" rx="10" fill="#203d5b" stroke="#7ea8c1" stroke-width="1.4"/>
+<text x="450.0" y="280.0" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">Porto volume</text>
+<line x1="350" y1="275" x2="390" y2="275" stroke="#71c4d8" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="550" y="240" width="145" height="70" rx="10" fill="#203d5b" stroke="#7ea8c1" stroke-width="1.4"/>
+<text x="622.5" y="270.5" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">Job proxy</text>
+<text x="622.5" y="289.5" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">bind</text>
+<line x1="510" y1="275" x2="550" y2="275" stroke="#71c4d8" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="735" y="240" width="145" height="70" rx="10" fill="#203d5b" stroke="#7ea8c1" stroke-width="1.4"/>
+<text x="807.5" y="270.5" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">User job</text>
+<text x="807.5" y="289.5" fill="#e8eef8" font-family="Arial, DejaVu Sans, sans-serif" font-size="14" text-anchor="middle" font-weight="normal">/slot/sandbox</text>
+<line x1="695" y1="275" x2="735" y2="275" stroke="#71c4d8" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="807" y1="161" x2="108" y2="240" stroke="#71c4d8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="457.5" y="191.5" fill="#b6d1e2" font-family="Arial, DejaVu Sans, sans-serif" font-size="11" text-anchor="middle" font-weight="normal">создать экспорт</text>
+<text x="455" y="360" fill="#a9bdd1" font-family="Arial, DejaVu Sans, sans-serif" font-size="13" text-anchor="middle" font-weight="normal">NFR-002/003: проверка до запуска · NFR-001/004: блоки и flush · NFR-008: диагностика</text>
+</svg>

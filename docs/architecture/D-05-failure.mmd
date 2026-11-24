@@ -1,0 +1,13 @@
+---
+title: D-05 Отказ при недоступной таблице или правах, 24.11.2026
+---
+sequenceDiagram
+  actor User as Разработчик
+  participant CA as Controller agent
+  participant DT as Dynamic table
+  participant EX as Exec node
+  User->>CA: Отправить spec
+  CA->>DT: CheckPermission + schema
+  DT-->>CA: Отказ / неверная схема
+  CA-->>User: Ошибка с table_path без payload
+  Note over EX: Джоба не стартует; format не выполняется

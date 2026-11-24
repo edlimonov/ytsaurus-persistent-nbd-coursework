@@ -1,0 +1,15 @@
+---
+title: D-03 Тестовое развёртывание, 24.11.2026
+---
+flowchart LR
+  A[API/CLI client] --> C[Controller agent container]
+  C --> E[Exec node container]
+  subgraph Host[Linux host: Porto + NBD]
+    E --> N[NBD server]
+    E --> P[Porto job container]
+    N --> D[/dev/nbdX]
+    D --> P
+  end
+  N <--> T[(YT dynamic table)]
+  CI[CI build + tests] -.->|image digest / SHA| C
+  CI -.->|image digest / SHA| E
